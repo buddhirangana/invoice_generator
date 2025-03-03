@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Invoice Generator 🧾  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and efficient **Invoice Generator** web application that allows users to create, preview, and download invoices in PDF format. Built with **React.js**, this tool is perfect for freelancers, small businesses, and professionals who need a quick and hassle-free invoicing solution.  
 
-## Available Scripts
+🚀 **Live Demo**: [Invoice Generator](https://invoice-generator-one-delta.vercel.app/)  
 
-In the project directory, you can run:
+## Features ✨  
 
-### `npm start`
+✅ **User-Friendly Interface** – Easy to fill invoice details like items, prices, and more.  
+✅ **Auto Calculation** – Automatically calculates total amount.  
+✅ **PDF Download** – Generate and download invoices as PDF files.  
+✅ **Responsive Design** – Works perfectly on desktop and mobile devices.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used 🛠️  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js** – Frontend framework  
+- **HTML & CSS** – Styling and structure  
+- **JavaScript** – Logic and interactivity  
+- **react-pdf** – PDF generation  
 
-### `npm test`
+## Installation & Setup ⚙️  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ Clone the repository:  
+```sh
+git clone https://github.com/buddhirangana/invoice_generator.git
+cd invoice_generator
+```
 
-### `npm run build`
+2️⃣ Install dependencies:
+```sh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3️⃣ Run the development server:
+```sh
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4️⃣ Open in browser:
+```sh
+http://localhost:3000
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment 🚀
+This app is deployed on Vercel. To deploy your own version:
+```sh
+npm run build
+vercel
+```
 
-### `npm run eject`
+## Contributing 🤝
+Contributions are welcome! If you have suggestions or find any issues, feel free to open an issue or submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License 📜
+This project is licensed under the MIT License – feel free to use and modify it.
